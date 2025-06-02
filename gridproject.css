@@ -1,0 +1,135 @@
+.body{
+ height: 100%;
+ width: 100%;
+background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.conty{
+text-align: center;
+font-size:x-large;
+font-weight: bold;
+
+
+
+}
+.conty1{
+
+
+
+  text-align: center;
+  font-size: small;
+  font-weight: 500;
+margin-top: 20px;
+width: 60%;
+margin-left: 20%;
+}
+.container{
+ display: grid;
+ /* grid-template-columns: repeat(4,1fr);
+ grid-template-rows: repeat(2,1fr);*/
+ gap: 2rem;
+ padding: 4%;
+ overflow: hidden;
+ grid-template-columns: repeat(auto-fit,minmax(200px,300px));
+ justify-content: center;
+}
+.box{
+ border: solid, rgb(95, 92, 92),1px;
+ height: 400px;
+ width: 100%;
+ border-radius: 5px;
+ display: flex;
+ overflow: hidden;
+ background-color: white  ;
+ 
+
+
+}
+
+ #img{
+  height: 55%;
+ 
+ width: 100%;
+ 
+}
+.item1{
+ display: flex;
+ font-weight: 800;
+ flex-direction: column;
+ 
+}
+.text1{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: large;
+ margin-left: 1rem;
+ margin-top: 10px;
+}
+#text2{
+
+font-size: small;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 100;
+width: 240px;
+color: rgb(85, 74, 74);
+margin-left: 20px;
+}
+.container2{
+
+ 
+ width: 90%;
+ height: 10%;
+margin-left: 13px;
+display: flex;
+
+
+
+
+}
+.boxy{
+ height: 90%
+ ;
+ width: 25%;
+ border-radius: 100px;
+ border: 1px,solid,rgb(255, 252, 252);
+ margin-left: px;
+ margin-top: 7px;
+ display: flex;
+ overflow: hidden;
+ background-color: rgb(235, 232, 232);
+ 
+}
+.rightbox{
+ font-size:12px ;
+ width: 45%;
+ margin-left: 4px;
+ text-decoration: none;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text3{
+ border: 1px,solid,black;
+ font-size : x-small;
+ border-radius: 2px;
+ height: 22px;
+ width: 100px;
+ padding-inline: 8px;
+ text-align: center;
+ display: flex;
+ gap: 5px;
+ margin-left: 65px;
+ margin-top: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 100;
+}
+#img:hover{
+/ opacity: 0.8;
+      
+      transform: scale(1.1);
+    transition-duration: 200ms;
+      
+}
+.text3:hover{
+
+transform: scale(1.1);
+    transition-duration: 200ms;
+   
+      
+}
